@@ -1,0 +1,81 @@
+body {
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  nav img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white; /* Cambio a color blanco */
+    text-decoration: none;
+  }
+  
+  .company-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dark-blue-section {
+    background-color: #202040;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .highlighted-text {
+    font-size: 48px;
+  }
+  
+  .car-section {
+    padding: 20px;
+  }
+  
+  .car-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .car {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .car img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .model {
+    color: blue;
+    font-size: 24px;
+  }
+  
