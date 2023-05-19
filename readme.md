@@ -10,6 +10,14 @@ Para probrar el sitio hay que:
 4. Abrir el navegador
 5. Escribir la siguiente ruta: localhost:8888/
 
+-----------------------------------------------
+
+1. Poner en la terminal: docker pull marcosaguilar10/automaxx:latest
+2. docker run -p 8888:8888 automaxx
+3. Abrir el navegador y poner: localhost:8888/
+
+https://hub.docker.com/repository/docker/marcosaguilar10/automaxx/general
+
 ### Prerequisites
 
 Tener node.js, un navegador, linux instalado (de preferencia)
@@ -42,4 +50,3 @@ Recomendado para java script.
 ## License
 
 Sin licenciamiento.
-
