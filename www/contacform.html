@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+      <title>Inicio</title>
+      <link rel="stylesheet" type="text/css" href="css/stylesContactForm.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <img src="img/logo.jpeg" alt="AUTOMAX">
+          <ul>
+            <li><a href="landingPage.html">Inicio</a></li>
+            <li><a href="contactinfo.html">Contacto</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contacform.html">Contactános </a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <h1>Contacto</h1>
+  
+  <form action="/login" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    
+    <input type="submit" value="Enviar">
+  </form>
+  
+  <div id="mensaje-confirmacion"></div>
+
+  <script>
+    // Obtener el elemento del mensaje de confirmación
+    const mensajeConfirmacion = document.getElementById('mensaje-confirmacion');
+    // Obtener la URL actual del navegador
+    const currentUrl = window.location.href;
+    // Comprobar si la URL contiene un parámetro "success"
+    if (currentUrl.includes('?success')) {
+      // Mostrar el mensaje de confirmación si el parámetro "success" está presente
+      mensajeConfirmacion.textContent = 'Datos enviados correctamente. Gracias por tu mensaje!';
+    }
+  </script>
+</body>
+</html>
